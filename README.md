@@ -2,11 +2,14 @@
 Demo Project for Spring Boot
 
 # cleaning(deleting target folder) and packaging(building jar file in target folder)
+```shell script
 mvn clean package
+```
 
 # run spring-boot-demo jar file
+```shell script
 java -jar target/spring-boot-demo-1.0-SNAPSHOT.jar
-
+```
 
 ## Testing HelloController
 http://locahost:8080/
