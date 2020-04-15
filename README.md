@@ -1,8 +1,8 @@
 # spring-boot-demo
 Demo Project for Spring Boot
 
-# cleaning and installing maven dependencies
-mvn clean install
+# cleaning(deleting target folder) and packaging(building jar file in target folder)
+mvn clean package
 
 # run spring-boot-demo jar file
 java -jar target/spring-boot-demo-1.0-SNAPSHOT.jar
